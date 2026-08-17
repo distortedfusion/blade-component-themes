@@ -27,7 +27,7 @@ class GreenTheme implements ThemeContract
     private static function lightColors(): array
     {
         return [
-            ...Arr::only(DefaultTheme::bladeColorDefinitions(ThemeVariant::LIGHT), [
+            ...Arr::only(DefaultTheme::definitions(ThemeVariant::LIGHT), [
                 ThemeVariable::SUCCESS->value,
                 ThemeVariable::SUCCESS_FOREGROUND->value,
                 ThemeVariable::INFO->value,
@@ -65,7 +65,7 @@ class GreenTheme implements ThemeContract
     private static function darkColors(): array
     {
         return [
-            ...Arr::only(DefaultTheme::bladeColorDefinitions(ThemeVariant::DARK), [
+            ...Arr::only(DefaultTheme::definitions(ThemeVariant::DARK), [
                 ThemeVariable::SUCCESS->value,
                 ThemeVariable::SUCCESS_FOREGROUND->value,
                 ThemeVariable::INFO->value,
