@@ -1,0 +1,37 @@
+{
+    "name": "ddfsn/blade-component-themes",
+    "description": "Blade Components is a hand-crafted, UI component library for building consistent web experiences in Laravel apps.",
+    "license": "MIT",
+    "keywords": ["laravel", "tailwind", "blade", "components", "themes", "distortedfusion", "ddfsn"],
+    "authors": [
+        {
+            "name": "Kevin Dierkx",
+            "email": "kevin@distortedfusion.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ddfsn/blade-components": "*"
+    },
+    "require-dev": {
+        "distortedfusion/php-cs-fixer-config": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DistortedFusion\\BladeComponentThemes\\": "src/"
+        }
+    },
+    "scripts": {
+        "phpcs-fix" : "php-cs-fixer fix --using-cache=no --allow-risky=yes --ansi",
+        "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes --ansi",
+        "test": [
+            "@phpcs"
+        ]
+    },
+    "scripts-descriptions": {
+        "phpcs": "Runs coding style test suite",
+        "test": "Runs all tests"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,16 @@
+/vendor/
+/node_modules/
+/dist/
+
+/.idea
+/.vscode
+
+/coverage
+/phpunit.xml
+
+.DS_Store
+Thumbs.db
+
+.php-cs-fixer.cache
+composer.lock
+composer.phar
