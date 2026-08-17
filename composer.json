@@ -1,6 +1,6 @@
 {
     "name": "ddfsn/blade-component-themes",
-    "description": "Blade Components is a hand-crafted, UI component library for building consistent web experiences in Laravel apps.",
+    "description": "A collection of example themes for ddfsn/blade-components.",
     "license": "MIT",
     "keywords": ["laravel", "tailwind", "blade", "components", "themes", "distortedfusion", "ddfsn"],
     "authors": [
